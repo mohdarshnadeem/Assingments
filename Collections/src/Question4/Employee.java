@@ -45,7 +45,7 @@ public class Employee {
     @Override
     public boolean equals(Object obj) {
         if(this == obj) return true;// determines reference point to the same object in the memory: for duplicates
-        // if i am performing comparing an object to itself then it is unnecessary to perform any further checks
+        // if i am comparing an object to itself then it is unnecessary to perform any further checks
         if(obj == null || getClass() != obj.getClass()) return false;// to ensure obj is not that is being compared
         // and of same class as the current object, to avoid nullpointerexception.
 
