@@ -1,0 +1,9 @@
+Write the following a functional interface and implement it using lambda:
+
+1. To check whether the first number is greater than second number or not, Parameter (int ,int ) Return type boolean
+
+2. Increment the number by 1 and return incremented value Parameter (int) Return int
+
+3. Concatenation of 2 string Parameter (String , String ) Return (String)
+
+4. Convert a string to uppercase and return . Parameter (String) Return (String)

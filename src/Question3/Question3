@@ -1,0 +1,3 @@
+Implement multiple inheritance with default method inside interface.
+Ans : we can do it via super keyword, by overriding the ambiguity causing method
+so we can give it our own implementation or any of the parent interface implementation .
