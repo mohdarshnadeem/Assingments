@@ -1,0 +1,3 @@
+Write a program to showcase the use of optional class.
+Note: optional classes are basically used to avoid breaking in the stream API, by
+avoiding conditional i.e if else
