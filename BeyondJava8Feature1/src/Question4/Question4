@@ -1,0 +1,3 @@
+Create Unmodifiable List from a Stream
+ans-> we can create unmodifiable list from a Stream using Java 10's Collectors.toUnmodifiableList()
+or Java 9's List.copyOf().

@@ -1,0 +1,2 @@
+Demonstrate the use of repeat(), strip(), trim(), isBlank(), indent(), transform(), stripIndent(),
+translateEscapes(),tripleQuotes and formatted() methods.
