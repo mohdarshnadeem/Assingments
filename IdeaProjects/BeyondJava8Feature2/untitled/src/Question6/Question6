@@ -1,0 +1,2 @@
+Demonstrate the use of addFirst(), addLast, removeFirst(), removeLast, getFirst(),
+getLast(), reversed() in Set and List Sequenced collections

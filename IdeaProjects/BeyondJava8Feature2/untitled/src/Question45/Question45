@@ -1,0 +1,8 @@
+ Q4)Use a Sealed class Class concept to create a class hierarchy
+ Q5)Mark Child classes as final, sealed, and non sealed and observe their behavior
+
+Ans:
+    Vehicle is a sealed class that restricts its subclasses to only those listed.
+    Car is marked as final (no further subclassing allowed).
+    Truck is marked as sealed (only its permitted subclasses can extend it).
+    Motorcycle is marked as non-sealed (allows further subclassing).

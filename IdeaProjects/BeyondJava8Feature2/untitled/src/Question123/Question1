@@ -1,0 +1,12 @@
+Q1)Create a Record for the Student with the following Fields: id name standard
+Q2)Make sure that no null values should be used for initialization.
+Q3)Use equal and hashCode methods with Student records
+
+ans:
+Using a traditional Java class, we have to manually define a constructor, getters, equals(),
+     hashCode(), and toString() methods. A record automatically provides all of these,
+     reducing redundancy and improving maintainability.
+
+    No Boilerplate Code – No need to write constructors, getters, equals(), hashCode(), or toString().
+    Immutable by Default – Ensures safety for read-only data.
+    Built-in equals() & hashCode() – Avoids duplicate student records.

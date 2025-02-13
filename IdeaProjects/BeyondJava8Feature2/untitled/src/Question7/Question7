@@ -1,0 +1,2 @@
+Demonstrate the use of firstEntry(), lastEntry(), pollFirstEntry(), pollLastEntry(),
+putFirst(), putLast(), reversed() with SequencedMap.
