@@ -1,0 +1,6 @@
+Use Synchronize method and synchronize block to enable synchronization
+between multiple threads trying to access method at same time.
+
+ans: synchronized keyword is used to restrict simultaneous access of thread on one resource. used in method definition
+synchronized block is used to put a part of code so that we don't restrict multiple thread to access the whole
+method only a specified block or part of code

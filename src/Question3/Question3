@@ -1,0 +1,7 @@
+WAP to showcase the usage of volatile in java.
+ans: volatile is used to ensure the changes made to a variable are
+immediately visible to all the threads
+//Simulate work:In a real-world scenario, a thread might perform some
+// time-consuming tasks (e.g., processing data, handling I/O, etc.). In this simplified example,
+// sleeping for 200 milliseconds acts as a placeholder for those tasks. We call it "simulate work"
+// because it mimics the delay or processing time that would normally occur during actual work.
