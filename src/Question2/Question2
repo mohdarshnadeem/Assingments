@@ -1,0 +1,38 @@
+Improve the code written in Basics of Multi Threading Part 1
+exercise question 4 to handle the deadlock using reentract lock.
+
+Approach:
+    Two Resources:
+        Pen
+        Paper
+
+    Two Threads:
+        t1 (User1): Wants to use Pen first, then Paper.
+        t2 (User2): Wants to use Paper first, then Pen.
+
+    Potential Deadlock Issue:
+        If t1 locks the Pen and t2 locks the Paper, both will wait for each other, causing a deadlock.
+        To prevent deadlock, the program uses tryLock() instead of a regular lock.
+
+Breakdown of Execution
+
+    User1 (t1) tries to get the Pen:
+        If successful, it then tries to get the Paper.
+        If it can't get Paper, it releases the Pen and exits.
+
+    User2 (t2) tries to get the Paper:
+        If successful, it then tries to get the Pen.
+        If it can't get Pen, it releases the Paper and exits.
+
+    If a thread fails to acquire both locks, it just prints a message and avoids waiting indefinitely.
+
+
+
+ReentrantLock: Allows fine-grained control over locking/unlocking.
+tryLock(): Prevents deadlock by trying to acquire a lock instead of waiting indefinitely.
+Thread Coordination (join()) ensures main() waits for both threads to finish.
+Example Output (May Vary)
+
+User1 is using Pen and trying to use Paper
+User2 can't acquire lock on paper
+Finish writing with Pen
