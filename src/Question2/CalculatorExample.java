@@ -3,7 +3,7 @@ package Question2;
 public class CalculatorExample {
     public static void main(String[] args) {
         Functions functions = new Functions();
-//      we are using method reference in place of 'new' keyword, it simplifies our code
+//      we are using method reference in place of lambda expression, it simplifies our code
         Calculator summation = functions::sum;
         Calculator difference = functions::difference;
 
